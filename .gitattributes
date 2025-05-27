@@ -1,0 +1,25 @@
+# Thiết lập mặc định: tự động xử lý line endings, dùng LF
+* text=auto eol=lf
+
+# Các file code phổ biến nên luôn dùng LF (chuẩn Unix)
+*.py     text eol=lf
+*.js     text eol=lf
+*.ts     text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.sh     text eol=lf
+
+# Giữ nguyên định dạng nhị phân (binary)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.pdf    binary
+*.zip    binary
+*.exe    binary
+
+# Windows scripts nếu có (giữ CRLF)
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
